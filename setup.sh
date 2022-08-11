@@ -22,5 +22,6 @@ tar -cf vmnet.tar vmnet-only
 # copy files to your usr/lib directory
 sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
 
-
+# install modules
+sudo vmware-mdconfig --console --install-all
 
